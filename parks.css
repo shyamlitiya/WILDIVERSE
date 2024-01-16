@@ -1,0 +1,33 @@
+h1{
+    text-align: center; 
+    font-size: 50px;
+    font-family: Black Ops One; 
+    text-underline-offset: 2px;
+    text-underline-position: below;
+    padding-bottom: 7px;
+}
+.image{
+    width: 400px;
+    /* margin-left: 800px;
+    margin-top: -600px;
+    margin-bottom: 100px;
+    margin-right: 60px; */
+    height: 300px;
+    border-radius: 7px;
+}
+h2{
+    text-align:center;
+    
+
+}
+.image-card{
+    width: 400px;
+    height: 400px;
+}
+
+.image-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
