@@ -1,39 +1,5 @@
-*{
-    text-decoration: none;
-}
-.navbar{
-    background-color: beige;
-    padding-right: 10px;
-    
-    margin-bottom:200px;
-    text-align: right;
-    padding-top: 10px;
-    
-}
-.navdiv{
-    display: flex;
-    align-items: right;
-    justify-content:space-between;
-    
-    
-}
-li{
-display: inline-block;
-list-style: none;
-height:60px;
-}
-li a{
-    color: rgb(41,128,185, .8);;
-    font-size: 30px;
-    padding: 20px;
-    margin-right: 25px;
-    font-weight: bold;
-    margin-top: 10px;
-}
-li a:hover{
-color:black;
-}
-body{
-    background-image:url(/images/deer.jpg);
-    background-repeat: no-repeat;
+body {
+  background-image: url(/images/deer.jpg);
+  background-repeat: no-repeat;
+  
 }

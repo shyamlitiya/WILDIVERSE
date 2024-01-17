@@ -4,19 +4,23 @@ h1{
     font-family: Black Ops One; 
     text-underline-offset: 2px;
     text-underline-position: below;
-    padding-bottom: 7px;
+    padding-bottom: 10px;
 }
 .image{
     width: 400px;
-    /* margin-left: 800px;
-    margin-top: -600px;
-    margin-bottom: 100px;
-    margin-right: 60px; */
     height: 300px;
     border-radius: 7px;
+    margin-bottom: 10px;
 }
-h2{
+.link{
     text-align:center;
+    font-size: 25px;
+    color:beige;
+    
+    font-family:"Acme" , "Serif";
+    letter-spacing: 1px;
+    text-decoration: underline;
+    color: aliceblue;
     
 
 }
@@ -28,6 +32,9 @@ h2{
 .image-container{
     display:flex;
     justify-content: center;
-    align-items: center;
-    gap: 10px;
+    align-items:normal;
+    gap: 20px;
+    padding-top: 2px;
+    
+    
 }

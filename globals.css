@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Fira+Sans&family=Montserrat:wght@500&family=Open+Sans:wght@300&family=Poppins:wght@400;500;600;700&family=Roboto+Condensed:wght@700&family=Source+Code+Pro&display=swap');
+
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: beige;
+  padding-right: 10px;
+
+  margin-bottom: 100px;
+  text-align: right;
+  padding-top: 10px;
+}
+
+.navdiv {
+  display: flex;
+  align-items: right;
+  justify-content: space-between;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  height: 60px;
+  margin-top: 10px;
+}
+
+li a {
+  color: rgb(41, 128, 185, 0.8);
+  font-size: 30px;
+  padding: 20px;
+  margin-right: 25px;
+  font-weight: bold;
+}
+
+li a:hover {
+  color: black;
+}
